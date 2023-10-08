@@ -5,3 +5,5 @@ print("""  when Im away from you,
 print(" billie eilsh") 
 print (""" abara , reyam , fatima ,
   zarah , ifrah""")
+name= "abrar"
+print("my name is" ,name )
