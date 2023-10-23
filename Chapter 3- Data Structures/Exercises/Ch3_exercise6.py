@@ -1,4 +1,4 @@
-guests = ['aryam', 'shahad', 'masara', 'noha' , 'reyam']
+guests = ['aryam', 'shahad', 'masara' , 'noha' , 'reyam']
 
 name = guests[0].title()
 print(name + ", I would like to invite you for a dinner.")
@@ -38,6 +38,7 @@ name = guests[4].title()
 print(name + ", I would like to invite you for a dinner.")
 
 
+
 print("\nSorry, we can only invite two people to dinner.")
 
 
@@ -63,4 +64,4 @@ del(guests[0])
 del(guests[0])
 
 
-print(guests)
+print(guests) 
