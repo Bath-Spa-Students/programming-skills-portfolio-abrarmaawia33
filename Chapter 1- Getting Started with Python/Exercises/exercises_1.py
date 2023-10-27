@@ -1,9 +1,6 @@
-print(""" twinkle twinkel little star 
-how I wonder what you are """)
-print("""  when Im away from you,
-     Im happier than ever  """)
-print(" billie eilsh") 
-print (""" abara , reyam , fatima ,
-  zarah , ifrah""")
-name= "abrar"
-print("my name is" ,name )
+print(""" Twinkle, twinkle, little star,
+	How I wonder what you are! 
+		Up above the world so high,   		
+		Like a diamond in the sky. 
+Twinkle, twinkle, little star, 
+	How I wonder what you are """)
