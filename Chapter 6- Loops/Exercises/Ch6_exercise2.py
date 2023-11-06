@@ -1,4 +1,4 @@
-# Movie Tickets
+# Movie Tickets (loops)
 
 prompt = "How old are you?"
 prompt += "\nEnter 'quit' when you are finished. "

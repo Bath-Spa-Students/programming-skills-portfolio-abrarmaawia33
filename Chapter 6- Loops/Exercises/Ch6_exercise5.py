@@ -1,20 +1,23 @@
 # No Pastrami 
 
-sandwich_orders = [
-    'tuna', 'cheese', 'jam', 'peanut butter',
-    'chicken', 'honey' , 'beef']
-finished_sandwiches = []
+sandwich_orders = ['tuna', 'cheese', 'jam', 'pastrami', 'peanut butter', 'chicken', 'honey', 'pastrami', 'pastrami']
 
-print("I'm sorry, we're all out of pastrami today.")
+print("Sorry, we've run out of pastrami sandwiches.")
+
+
 while 'pastrami' in sandwich_orders:
     sandwich_orders.remove('pastrami')
 
-print("\n")
+
+finished_sandwiches = []
+
+
 while sandwich_orders:
     current_sandwich = sandwich_orders.pop()
-    print("I'm almost done with your " + current_sandwich + " sandwich.")
+    print(f"Almost done with your {current_sandwich} sandwich.")
     finished_sandwiches.append(current_sandwich)
 
-print("\n")
+
+print("\nList of finished sandwiches:")
 for sandwich in finished_sandwiches:
-    print("your " + sandwich + " sandwich is done now.")
+    print(sandwich)
