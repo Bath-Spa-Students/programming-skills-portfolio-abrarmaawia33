@@ -1,3 +1,5 @@
+# Greetings
+
 names = ["reyam", "noha", "fatima"]
 
 print("welcome, to my good friend {}".format(names[0]))

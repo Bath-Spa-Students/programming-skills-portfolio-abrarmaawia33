@@ -1,3 +1,5 @@
+# exploring the World
+
 locations = ['london', 'paris', 'canada', 'dubai', 'malaysia']
 
 print("Original order:")
