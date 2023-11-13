@@ -1,4 +1,4 @@
-# 
+# Program that uses a function to check if a given number is prime or not
 def prime(num):
     if num <= 1:
         return False
@@ -14,21 +14,3 @@ if prime(number):
 else:
     print(f"{number} is not a prime number")
 
-
-#khgyg
-
-def is_prime(num):
-    if num <= 1:
-        return False
-    for i in range(2, int(num ** 0.5) + 1):
-        if num % i == 0:
-            return False
-    return True
-
-numbers_to_check = [17, 21, 29, 50, 97]
-
-for number in numbers_to_check:
-    if is_prime(number):
-        print(f"{number} is a prime number")
-    else:
-        print(f"{number} is not a prime number")
