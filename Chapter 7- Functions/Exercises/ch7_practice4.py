@@ -1,4 +1,5 @@
- 
+# defines a function to calculate the area of a circle .
+
 def circle_area (radius):
     return 3.14 * (radius ** 2)
 given_radius = 10
