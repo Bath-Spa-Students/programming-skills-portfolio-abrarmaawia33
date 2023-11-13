@@ -1,3 +1,4 @@
+# defines a function to check whether a given number is prime .
 def prime(number):
     if number < 3:
         return False 
